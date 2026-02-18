@@ -98,7 +98,7 @@ Tests a **single injection position** sequentially using one payload set.
 ### Target Example
 
 ```
-username=§user§
+username=§user§&password=pass
 ```
 
 ### Payload Set (Single List)
@@ -114,18 +114,18 @@ payload6
 
 ### Execution Model
 
-|Request|Payload|Request Sent|
-|---|---|---|
-|1|payload1|username=payload1|
-|2|payload2|username=payload2|
-|3|payload3|username=payload3|
-|4|payload4|username=payload4|
-|5|payload5|username=payload5|
-|6|payload6|username=payload6|
+| Request | Payload  |          Sent Request           |
+| :-----: | :------: | :-----------------------------: |
+|    1    | payload1 | username=payload1&password=pass |
+|    2    | payload2 | username=payload2&password=pass |
+|    3    | payload3 | username=payload3&password=pass |
+|    4    | payload4 | username=payload4&password=pass |
+|    5    | payload5 | username=payload5&password=pass |
+|    6    | payload6 | username=payload6&password=pass |
 
 ### Request Volume Formula
 
-N
+$N$
 
 ### Use Cases
 
@@ -151,20 +151,31 @@ Injects the **same payload** into **multiple positions** simultaneously.
 username=§user§&password=§password§
 ```
 
+### Payload Set (Single List)
+
+```
+payload1
+payload2
+payload3
+payload4
+payload5
+payload6
+```
+
 ### Execution Model
 
-|Request|Payload|Request Sent|
-|---|---|---|
-|1|payload1|username=payload1&password=payload1|
-|2|payload2|username=payload2&password=payload2|
-|3|payload3|username=payload3&password=payload3|
-|4|payload4|username=payload4&password=payload4|
-|5|payload5|username=payload5&password=payload5|
-|6|payload6|username=payload6&password=payload6|
+| Request | Payload  |            Sent Request             |
+| :-----: | :------: | :---------------------------------: |
+|    1    | payload1 | username=payload1&password=payload1 |
+|    2    | payload2 | username=payload2&password=payload2 |
+|    3    | payload3 | username=payload3&password=payload3 |
+|    4    | payload4 | username=payload4&password=payload4 |
+|    5    | payload5 | username=payload5&password=payload5 |
+|    6    | payload6 | username=payload6&password=payload6 |
 
 ### Request Volume Formula
 
-N
+$N$
 
 ### Use Cases
 
@@ -209,15 +220,15 @@ set2_item3
 
 ### Execution Model
 
-|Request|Username|Password|
-|---|---|---|
-|1|set1_item1|set2_item1|
-|2|set1_item2|set2_item2|
-|3|set1_item3|set2_item3|
+| Request | 1st payload | 2nd payload |              Sent Request               |
+| :-----: | :---------: | :---------: | :-------------------------------------: |
+|    1    | set1_item1  | set2_item1  | username=set1_item1&password=set2_item1 |
+|    2    | set1_item2  | set2_item2  | username=set1_item2&password=set2_item2 |
+|    3    | set1_item3  | set2_item3  | username=set1_item3&password=set2_item3 |
 
 ### Request Volume Formula
 
-min(N1, N2, ..., Nn)
+$\min(N_1, N_2, ..., N_n)$
 
 ### Use Cases
 
@@ -242,20 +253,38 @@ Tests **all possible combinations** across multiple payload sets (cartesian prod
 username=§user§&password=§password§
 ```
 
+### Payload Sets
+
+**Set 1**
+
+```
+set1_item1
+set1_item2
+set1_item3
+```
+
+**Set 2**
+
+```
+set2_item1
+set2_item2
+set2_item3
+```
+
 ### Execution Model (Example)
 
-|Request|Username|Password|
-|---|---|---|
-|1|set1_item1|set2_item1|
-|2|set1_item1|set2_item2|
-|3|set1_item1|set2_item3|
-|4|set1_item2|set2_item1|
-|5|set1_item2|set2_item2|
-|6|set1_item2|set2_item3|
+| Request | 1st payload | 2nd payload |              Sent Request               |
+| :-----: | :---------: | :---------: | :-------------------------------------: |
+|    1    | set1_item1  | set2_item1  | username=set1_item1&password=set2_item1 |
+|    2    | set1_item1  | set2_item2  | username=set1_item1&password=set2_item2 |
+|    3    | set1_item1  | set2_item3  | username=set1_item1&password=set2_item3 |
+|    4    | set1_item2  | set2_item1  | username=set1_item2&password=set2_item1 |
+|    5    | set1_item2  | set2_item2  | username=set1_item2&password=set2_item2 |
+|    6    | set1_item2  | set2_item3  | username=set1_item2&password=set2_item3 |
 
 ### Request Volume Formula
 
-N1 × N2
+$N1 \times N2$
 
 ### Use Cases
 
