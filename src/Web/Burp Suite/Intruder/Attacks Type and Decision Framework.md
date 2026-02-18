@@ -3,7 +3,7 @@
 
 ---
 
-# 0. Summary
+# Summary
 
 1. [Objective](#objective)
 2. [Pre-Execution Controls & Safeguards](#pre-execution-controls--safeguards)
