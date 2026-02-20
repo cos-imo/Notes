@@ -30,7 +30,7 @@ Elle vise à **centraliser et organiser des ressources, des guides, des synthès
 Ce projet va de pair avec [SuperDocs](https://github.com/cos-imo/SuperDocs).
 SuperDocs permet de découvrir et d’accéder rapidement à des documents, articles, tutoriels et RFC utiles pour l’informatique, la cybersécurité et le pentest.
 
-Accès à SuperDocs : [https://superdocs.cosimoungaro.fr/Accueil.html](https://superdocs.cosimoungaro.fr/Accueil.html)
+Accès à [![Visiter SuperDocs](https://img.shields.io/badge/📚-_SuperDocs-blue?style=for-the-badge)](https://superdocs.cosimoungaro.fr/Accueil.html)
 
 ---
 
