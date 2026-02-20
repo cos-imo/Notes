@@ -79,7 +79,7 @@ Chaque sous-dossier contient des fichiers **Markdown** pour les documents, outil
 
 ## Note de prudence
 
-> **Note** 
+> [!NOTE] 
 > _Notes_ est un projet **personnel**. Les informations, liens et ressources sont fournis à titre éducatif et peuvent ne pas être à jour ou complets.  
 > Utilisez les contenus dans un cadre légal et sécurisé.
 
