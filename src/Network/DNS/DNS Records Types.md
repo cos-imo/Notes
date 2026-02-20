@@ -3,7 +3,8 @@
 ---
 # Introduction
 
-Cette page offre une vue consolidée et structurée des différents types d’enregistrements DNS, de leur usage opérationnel et de leur conformité aux standards officiels. Elle a pour objectif de fournir aux équipes techniques et aux consultants en cybersécurité ou en infrastructure réseau un support synthétique et immédiatement exploitable pour la conception, l’audit et la maintenance des architectures DNS. L’approche adoptée privilégie la clarté, la précision et la conformité aux RFC, tout en intégrant les pratiques émergentes et propriétaires.
+Cette page offre une vue consolidée et structurée des différents types d’enregistrements DNS, de leur usage opérationnel et de leur conformité aux standards officiels. Elle a pour objectif de fournir un support synthétique et immédiatement exploitable pour la conception, l’audit et la maintenance des architectures DNS.  
+Des liens vers les pages RFC sont disponibles en bas de page.
 
 ---
 
