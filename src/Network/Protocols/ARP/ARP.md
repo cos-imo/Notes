@@ -1,15 +1,17 @@
 # ARP - Address Resolution Protocol
 ---
-[![Static Badge](https://img.shields.io/badge/OSI-Layer_2-orange)](Network/OSI%20Model.md)
+**Related pages**  
+[![Static Badge](https://img.shields.io/badge/OSI-Layer_2-orange)](Network/OSI%20Model.md)  
+**Related RFCs**  
 [![Static Badge](https://img.shields.io/badge/RFC-826-blue)](https://datatracker.ietf.org/doc/rfc826/)
 [![Static Badge](https://img.shields.io/badge/RFC-903-blue)](https://datatracker.ietf.org/doc/rfc903/)
 [![Static Badge](https://img.shields.io/badge/RFC-2390-blue)](https://datatracker.ietf.org/doc/rfc2390/)
-[![Static Badge](https://img.shields.io/badge/RFC-5227-blue)](https://datatracker.ietf.org/doc/rfc5227/)
+[![Static Badge](https://img.shields.io/badge/RFC-5227-blue)](https://datatracker.ietf.org/doc/rfc5227/) 
 
 ---
 # Definition
 
-> **Address Resolution Protocol (ARP)**  
+> **Address Resol. tion Protocol (ARP)**  
 > Enables the **mapping** from a **IPv4 address** to a **link-layer (MAC) address** *within the same local network segment*
 
 ---
