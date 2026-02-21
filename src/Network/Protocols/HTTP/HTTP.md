@@ -1,7 +1,10 @@
 # HTTP - HyperText Transfer Protocol
-
 ---
+**Related pages**  
 [![Static Badge](https://img.shields.io/badge/OSI-Layer_7-orange)](../../OSI%20Model.md)
+[![Static Badge](https://img.shields.io/badge/HTTP-Reponse_header_fields-brown)](./HTTP%20response%20header%20fields.md)
+[![Static Badge](https://img.shields.io/badge/HTTP-Request_header_fields-brown)](./HTTP%20request%20header%20fields.md)  
+**Related RFCs**  
 [![Static Badge](https://img.shields.io/badge/RFC-9110-blue)](https://datatracker.ietf.org/doc/rfc9110/)
 [![Static Badge](https://img.shields.io/badge/RFC-9111-blue)](https://datatracker.ietf.org/doc/rfc9111/)
 [![Static Badge](https://img.shields.io/badge/RFC-9112_HTTP/1.1-blue)](https://datatracker.ietf.org/doc/rfc9112/)
@@ -11,7 +14,6 @@
 [![Static Badge](https://img.shields.io/badge/RFC-9218-blue)](https://datatracker.ietf.org/doc/rfc9218/)
 
 ---
-
 # Summary
 1. [Definition](#definition)
 2. [Requests](#requests)
