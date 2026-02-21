@@ -16,9 +16,9 @@
 # Workflow
 
 Blueprint
-  : **ARP Request:** A host broadcasts a request: "Who has IP X.X.X.X?"
-  : **ARP Reply**: The host with X.X.X.X IP responds with its MAC address
-  : **Resolution**: The requesting host updates its [ARP cache](#arp-cache) and uses given IPv4 address
+  1. **ARP Request:** A host broadcasts a request: "Who has IP X.X.X.X?"   
+  2. **ARP Reply**: The host with X.X.X.X IP responds with its MAC address.  
+  3. **Resolution**: The requesting host updates its [ARP cache](#arp-cache) and uses given IPv4 address.  
 
 ## Showcase
 A **PCAP file** demonstrating a ARP request and response is provided below.  
