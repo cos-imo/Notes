@@ -25,7 +25,7 @@
 ---
 
 ### 7. Application
-HTTP - HTTPS - FTP - SMTP - Git - GraphQL - REST - SMB - [DNS](DNS%20Records%20Types.md) - CSRF Tokens - HTTP Headers - DNS - LDAP / LDAPS - Kerberos - SNMP - SMTP / IMAP / POP3 - RDP - SSH - NFS
+HTTP - HTTPS - FTP - SMTP - Git - GraphQL - REST - SMB - [DNS](Protocols/DNS/DNS.md) - CSRF Tokens - HTTP Headers - DNS - LDAP / LDAPS - Kerberos - SNMP - SMTP / IMAP / POP3 - RDP - SSH - NFS
 
 ---
 

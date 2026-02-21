@@ -1,9 +1,11 @@
 # DNS - Domain Name System
 
 ---
+[![Static Badge](https://img.shields.io/badge/OSI-Layer_7-orange)](../../OSI%20Model.md)
 [![Static Badge](https://img.shields.io/badge/RFC-1034-blue)](https://datatracker.ietf.org/doc/rfc1034/)
 [![Static Badge](https://img.shields.io/badge/RFC-1035-blue)](https://datatracker.ietf.org/doc/rfc1035/)
 [![Static Badge](https://img.shields.io/badge/RFC-9499-blue)](https://datatracker.ietf.org/doc/rfc9499/)
+[![Static Badge](https://img.shields.io/badge/DNS-Records_Types-brown)](DNS%20Records%20Types.md)
 
 ---
 # Definition

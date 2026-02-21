@@ -1,4 +1,6 @@
 # DNS Record Types Table
+---
+[![Static Badge](https://img.shields.io/badge/DNS-Main_page-brown)](DNS.md)
 
 ---
 # Introduction
