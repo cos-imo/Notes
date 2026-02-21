@@ -11,7 +11,7 @@
 | **N°** | **Layer**    | **Description**                                                                   |
 | ------ | ------------ | --------------------------------------------------------------------------------- |
 | 7      | Application  | High-level protocols used at the application level for data exchange (e.g., HTTP) |
-| 6      | Presentation | Data representation and interface between applications and netowkr endpoints.     |
+| 6      | Presentation | Data representation and interface between applications and network endpoints.     |
 | 5      | Session      | Management of communication sessions                                              |
 | 4      | Tansport     | Transmission reliability, including segmentation and acknowledgement              |
 | 3      | Network      | Addressing and routing of data across networks                                    |
