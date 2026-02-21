@@ -1,7 +1,7 @@
 # ARP - Address Resolution Protocol
 ---
 **Related pages**  
-[![Static Badge](https://img.shields.io/badge/OSI-Layer_2-orange)](Network/OSI%20Model.md)  
+[![Static Badge](https://img.shields.io/badge/OSI-Layer_2-orange)](../../OSI%20Model.md)  
 **Related RFCs**  
 [![Static Badge](https://img.shields.io/badge/RFC-826-blue)](https://datatracker.ietf.org/doc/rfc826/)
 [![Static Badge](https://img.shields.io/badge/RFC-903-blue)](https://datatracker.ietf.org/doc/rfc903/)
