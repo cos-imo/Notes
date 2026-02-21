@@ -11,13 +11,13 @@
 ---
 # Definition
 
-> **Address Resol. tion Protocol (ARP)**  
+> **Address Resolution Protocol (ARP)**  
 > Enables the **mapping** from a **IPv4 address** to a **link-layer (MAC) address** *within the same local network segment*
 
 ---
 # Workflow
 
-Blueprint
+**Blueprint**
   1. **ARP Request:** A host broadcasts a request: "Who has IP X.X.X.X?"   
   2. **ARP Reply**: The host with X.X.X.X IP responds with its MAC address.  
   3. **Resolution**: The requesting host updates its [ARP cache](#arp-cache) and uses given IPv4 address.  
@@ -29,7 +29,7 @@ This capture was generate using [this Python script](https://github.com/cos-imo/
 
 ---
 # ARP Cache
- - Hosts store resolved IP->MAC records mappings in a **local ARP cache** to reduce repeated broadcast traffic.  
+ - Hosts store resolved IP -> MAC records mappings in a **local ARP cache** to reduce repeated broadcast traffic.  
  - Entries have a **time-to-live (TTL)**
  - **Proper cache management is critical**; cf the [ARP Spoofing](#arp-spoofing) and [ARP flooding](#arp-flooding) section
 
