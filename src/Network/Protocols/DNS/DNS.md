@@ -1,6 +1,11 @@
 # DNS - Domain Name System
 
 ---
+[![Static Badge](https://img.shields.io/badge/DNS-RFC1034-blue)](https://datatracker.ietf.org/doc/rfc1034/)
+[![Static Badge](https://img.shields.io/badge/DNS-RFC1035-blue)](https://datatracker.ietf.org/doc/rfc1035/)
+[![Static Badge](https://img.shields.io/badge/DNS-RFC9499-blue)](https://datatracker.ietf.org/doc/rfc9499/)
+
+---
 # Definition
 
 > **Domain Name System (DNS)**  
