@@ -35,17 +35,17 @@
  - **SSL 1.0** - Never released
  - **SSL 2.0** - Cryptographically broken
  - **SSL 3.0** - Vulnerable to POODLE attacks
- - **TLS 1.0** - defined in [RFC 2246]() - Deprecated due to *weak cryptographic primitives*
- - **TLS 1.1** - defined in [RFC 4346]() - Deprecated and no longer recommended
+ - **TLS 1.0** - defined in [RFC 2246](https://datatracker.ietf.org/doc/rfc2246/) - Deprecated due to *weak cryptographic primitives*
+ - **TLS 1.1** - defined in [RFC 4346](https://datatracker.ietf.org/doc/rfc4346/) - Deprecated and no longer recommended
  > **Note** : All versions listed above are **deprecated** and **should not be used**
  
 #### Supported and secure versions
- - **TLS 1.2** - defined in [RFC 5246]() - updated in [RFC 8446]()
+ - **TLS 1.2** - defined in [RFC 5246](https://datatracker.ietf.org/doc/rfc5246/) - updated in [RFC 8446](https://datatracker.ietf.org/doc/rfcc8446)
 	 - Uses SHA-256 (instead of MD5 and SHA-1 combination)
 	 - Added AES-GCM and AES-CCM
 	 - Still widely deployed and used
 	 - Authentication is **embedded in cipher suite**, thus the certificate is **tightly coupled to it**
- - **TLS 1.3** - defined in [RFC 8446]()
+ - **TLS 1.3** - defined in [RFC 8446](https://datatracker.ietf.org/doc/rfc8446/)
 	- Removes insecure algorithms and features
 	- Reduces handshake latency
 	- Authentication and key exchange are **decoupled** from cipher suites (negotiated via `signature_algorithm`), increasing flexibility, configuration and auditing
