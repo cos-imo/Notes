@@ -28,14 +28,14 @@ Operates using a recursive, hierarchical lookup, sequentially querying each doma
 
 
 **In given example**
-	1. The user attempts to access `fr.wikipedia.org`, triggering a DNS resolution request.
-	2. The DNS resolver queries the `root NS`, or *root rame server* (here `a.root-servers.net`) to identify `.org` top-level domain authority.
-	3. `root NS`(`a.root-servers.net`) replies specifying the authoritative server for `.org` domain names (`a0.org.afilias-nst.info`)
-	4. The resolver queries said server (`a0.org.afilias-nst.info`) for `fr.wikipedia.org`
-	5. `a0.org.afilias-nst.info` answers `ns0.wikimedia.org` is in charge of `wikipedia.org` domain
-	6. The resolver queries `ns0.wikimedia.org` for `fr.wikipedia.org`'s IP address
-	7. `ns0.wikimedia.org` returns `91.198.174.232`
-	8. The resolver delivers the IP address to the end user
+	1. The user attempts to access `fr.wikipedia.org`, triggering a DNS resolution request.  
+	2. The DNS resolver queries the `root NS`, or *root rame server* (here `a.root-servers.net`) to identify `.org` top-level domain authority.  
+	3. `root NS`(`a.root-servers.net`) replies specifying the authoritative server for `.org` domain names (`a0.org.afilias-nst.info`).  
+	4. The resolver queries said server (`a0.org.afilias-nst.info`) for `fr.wikipedia.org.   
+	5. `a0.org.afilias-nst.info` answers `ns0.wikimedia.org` is in charge of `wikipedia.org` domain.  
+	6. The resolver queries `ns0.wikimedia.org` for `fr.wikipedia.org`'s IP address.  
+	7. `ns0.wikimedia.org` returns `91.198.174.232`.  
+	8. The resolver delivers the IP address to the end user.  
 
 *Note* : In the referenced diagram, the `DNS resolver` is labeled `Serveur DNS récursif`
 
